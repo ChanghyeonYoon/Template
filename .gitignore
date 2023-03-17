@@ -48,3 +48,14 @@ next-env.d.ts
 !.yarn/sdks
 !.yarn/versions
 
+!/.idea/
+!/.idea/*
+!/.idea/**
+/.idea/dbnavigator.xml
+/.idea/discord.xml
+/.idea/git_toolbox_prj.xml
+/.idea/workspace.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/template.iml
+/.idea/vcs.xml
