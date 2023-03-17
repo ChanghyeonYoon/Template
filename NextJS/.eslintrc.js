@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   root: true,
 
   env: {
@@ -8,25 +8,24 @@ module.export = {
     jest: true,
   },
 
-  parser: "@typescript-eslint/parser", // ESLint 파서를 지정합니다.
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
-      jsx: true, // JSX를 파싱할 수 있습니다.
+      jsx: true,
     },
-    ecmaVersion: "latest", // Modern ECMAScript를 파싱할 수 있습니다.
-    sourceType: "module", // import, export를 사용할 수 있습니다.
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
 
   extends: [
+    "plugin:react/recommended",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "eslint-config-prettier",
-    "plugin:@next/next/recommended",
     "next/core-web-vitals",
   ],
 
   plugins: ["@typescript-eslint", "import", "prettier", "react", "react-hooks"],
-  settings: { react: { version: "detect" } },
 
   rules: {
     "prettier/prettier": "error",
