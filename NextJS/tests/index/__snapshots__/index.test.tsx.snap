@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders Test Home 1`] = `
+<div>
+  <main>
+    <div>
+      <h1>
+        Kongtare - Malma
+      </h1>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Home should render the component 1`] = `
+<div>
+  <main>
+    <div>
+      <h1>
+        Kongtare - Malma
+      </h1>
+    </div>
+  </main>
+</div>
+`;
